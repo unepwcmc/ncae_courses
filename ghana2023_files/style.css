@@ -58,6 +58,10 @@ body {
   margin: 0.5rem;
 }
 
+.logo-darwin {
+  background-image: url('darwin-logo.png');
+}
+
 .logo-mesti {
   background-image: url('mesti-logo.jpeg');
 }
