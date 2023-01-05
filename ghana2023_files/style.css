@@ -1,0 +1,92 @@
+html {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-black);
+  font-weight: 400;
+  font-style:normal;
+  letter-spacing: normal;
+  line-height: 1.3;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0;
+}
+
+.hero {
+  background-image: url('hero.jpeg'), linear-gradient(190deg, rgba(255,255,255,0.2231093120842087) 0%, rgba(0,40,8,0.7357143541010154) 52%, rgba(255,255,255,0) 100%);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin-bottom: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 3rem 0;
+}
+
+.introduction {
+  font-weight: 500;
+  color: white;
+  padding: 5vw 20vw;
+}
+
+.container {
+  padding: 1vw 20vw;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  display: inline-block;
+
+  height: 5rem;
+  width: 5rem;
+
+  margin: 0.5rem;
+}
+
+.logo-mesti {
+  background-image: url('mesti-logo.jpeg');
+}
+
+.logo-gss {
+  background-image: url('gss-logo.jpg');
+}
+
+.logo-epa {
+  background-image: url('epa-logo.jpg');
+}
+
+.logo-wcmc {
+  background-image: url('wcmc-logo.svg');
+  width: 10rem;
+}
+
+.modules {
+  background: rgba(55, 99, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin-top: 3rem
+}
+
+a {
+  color: rgb(0, 97, 5);
+  font-weight: 600;
+}
+
+.closing-note {
+  font-size: 14px;
+}
